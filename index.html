@@ -4,7 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <script type="module" src="script.js" defer></script>
+    <title>javascriptprosjekt</title>
   </head>
-  <body></body>
+  <body>
+    <form onsubmit="myFunction()">
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname">
+    </form>
+
+    <div class="output" id="showtime">
+    </div>
+  </body>
 </html>
